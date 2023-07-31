@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculator</title>
+        <link rel="icon" type="image/x-icon" href="favicon.png">
+        <link rel="stylesheet" type="text/css" href="style.css">
+       <script src="calc.js"></script>
+    </head>
+    <body>
+        <div class="Calc">
+        <form name="Calculator">
+            <h1>Calculator</h1>
+            <table>
+                <tr>
+                    <input type="text" id="screen">
+                    <br>
+                </tr>
+                <tr>
+                    <input type="button" name="7" value=" 7 " onclick="updateTextBox(7)">
+                    <input type="button" name="8" value=" 8 " onclick="updateTextBox(8)">
+                    <input type="button" name="9" value=" 9 " onclick="updateTextBox(9)">
+                    <input type="button" name="+" value=" + " onclick="updateTextBox('+')">
+                    <br>
+                    <input type="button" name="4" value=" 4 " onclick="updateTextBox(4)">
+                    <input type="button" name="5" value=" 5 " onclick="updateTextBox(5)">
+                    <input type="button" name="6" value=" 6 " onclick="updateTextBox(6)">
+                    <input type="button" name="-" value=" - " onclick="updateTextBox('-')">
+                    <br>
+                    <input type="button" name="1" value=" 1 " onclick="updateTextBox(1)">
+                    <input type="button" name="2" value=" 2 " onclick="updateTextBox(2)">
+                    <input type="button" name="3" value=" 3 " onclick="updateTextBox(3)">
+                    <input type="button" name="*" value=" * " onclick="updateTextBox('*')">
+                    <br>
+                    <input type="button" name="C" value=" C " onclick="reset()">
+                    <input type="button" name="0" value=" 0 " onclick="updateTextBox(0)">
+                    <input type="button" name="=" value=" = " onclick="result()">
+                    <input type="button" name="/" value=" / " onclick="updateTextBox('/')">
+
+                </tr>
+            </table>
+        </form>
+    </div>
+    </body>
+</html>

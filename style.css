@@ -1,0 +1,45 @@
+.Calc{
+    margin-top: 5%;
+    margin-left: 30%;
+    margin-right: 30%;
+    background-color: rgba(255, 219, 15, 0.781);
+    border-radius: 10px;  
+    font-family: 'Courier New', Courier, monospace; 
+    border: 1px solid black;
+}
+body{
+    background-image: url("BG.jpg");
+    text-align: center;
+}
+form{
+    padding: 5%;
+}
+input{
+    width:10%;
+    height: 1%;
+}
+input[type="text"]{
+    width:57%;
+    height: 55px;
+    font-size: 25px;
+    border-radius: 10px;  
+    font-family: 'Courier New', Courier, monospace; 
+}
+input[type="button"]{
+    padding: 7%;
+    font-size: 16px;
+    border-radius: 10px;  
+    font-family: 'Courier New', Courier, monospace;
+    height: 1px;
+}
+input[type="button"]:hover{
+    color:azure;
+    cursor: pointer;
+    background-color:rgb(93, 93, 91);
+    border: 1px solid;
+}
+h1{
+    font-size: auto;
+    font-family: 'Courier New', Courier, monospace;
+
+}
